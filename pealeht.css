@@ -1,84 +1,99 @@
 .mainTitle {
-    font-size: 40px;
-    font-family: DejaVu Sans Mono, monospace;
-    text-align: center;
-    margin: 4%;
-}   
-
+  font-size: 40px;
+  font-family: DejaVu Sans Mono, monospace;
+  text-align: center;
+  margin: 4%;
+}
+.menu {
+  position: sticky;
+  top: 0;
+  background-color: none;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
 .container {
-    text-align: center;
-    width: 100%;
-    height: 65%;
+  text-align: center;
+  width: 100%;
+  height: 65%;
 }
 
 .left {
-    width: 50%;
-    height: 100%;
-    float: left;
-    background-color: rgb(188, 143, 143, .5);
-    border-collapse: collapse;
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: rgb(188, 143, 143, 0.5);
+  border-collapse: collapse;
 }
 
 .right {
-    width: 50%;
-    height: 100%;
-    float: right;
-    background-color: white;
-    border-collapse: collapse;
-    opacity: 98%;
-    border-radius: 2em;
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-color: white;
+  border-collapse: collapse;
+  opacity: 98%;
+  border-radius: 2em;
 }
 
 .tutvustus {
-    align-content: center;
-    margin: 4em;
+  align-content: center;
+  margin: 4em;
 }
 
 .tutvustusTekst {
-    font-size: 23px;
-    font-family: DejaVu Sans Mono, monospace;
-    text-align: center;
-    
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: .5em;
+  font-size: 23px;
+  font-family: DejaVu Sans Mono, monospace;
+  text-align: center;
 
-    max-width: 85%;
-    margin: auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5em;
+
+  max-width: 85%;
+  margin: auto;
 }
 
 .kettad {
-    font-size: 30px;
-    font-family: DejaVu Sans Mono, monospace;
-    
-    padding: auto;
+  font-size: 30px;
+  font-family: DejaVu Sans Mono, monospace;
+
+  padding: auto;
 }
 
 img {
-    border-radius: 0em 0em 2em 2em;
-    max-width: 100%;
-    height: auto;
+  border-radius: 0em 0em 2em 2em;
+  max-width: 100%;
+  height: auto;
 }
 
-body, html {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 
 body {
-    background-image: url(../pildid/korv.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+  background-image: url(korv.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
-    margin: auto;
-    color: white;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  margin: auto;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
 }
-
-
-
