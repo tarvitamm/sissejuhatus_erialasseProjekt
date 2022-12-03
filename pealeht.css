@@ -1,18 +1,19 @@
 .mainTitle {
   font-size: 40px;
-  font-family: DejaVu Sans Mono, monospace;
+  font-family: monospace;
   text-align: center;
   margin: 4%;
 }
+
 .menu {
   position: sticky;
   top: 0;
-  background-color: none;
   padding: 10px 0px 10px 0px;
   color: white;
   margin: 0 auto;
   overflow: hidden;
 }
+
 .menu a {
   float: left;
   color: white;
@@ -20,28 +21,32 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  font-family: monospace;
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
 .container {
+  padding: 6em;
   text-align: center;
-  width: 100%;
+  width: auto;
   height: 65%;
 }
 
 .left {
-  width: 50%;
-  height: 100%;
+  width: 45%;
+  height: auto;
   float: left;
-  background-color: rgb(188, 143, 143, 0.5);
+  background-color: #f0d46e;
   border-collapse: collapse;
+  border-radius: 2em;
 }
 
 .right {
-  width: 50%;
-  height: 100%;
+  width: 45%;
+  height: auto;
   float: right;
-  background-color: white;
+  background-color: #f0d46e;
   border-collapse: collapse;
-  opacity: 98%;
   border-radius: 2em;
 }
 
@@ -51,29 +56,21 @@
 }
 
 .tutvustusTekst {
-  font-size: 23px;
-  font-family: DejaVu Sans Mono, monospace;
+  font-size: 25px;
+  font-family: monospace;
   text-align: center;
 
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   border-radius: 0.5em;
 
-  max-width: 85%;
+  max-width: 80%;
   margin: auto;
 }
 
-.kettad {
+.kettadTitle {
   font-size: 30px;
-  font-family: DejaVu Sans Mono, monospace;
-
-  padding: auto;
-}
-
-img {
-  border-radius: 0em 0em 2em 2em;
-  max-width: 100%;
-  height: auto;
+  font-family: monospace;
 }
 
 body,
@@ -96,4 +93,82 @@ h1 {
   color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black;
+}
+
+
+.ajaluguTitle, .reeglidTitle {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: lighter;
+}
+
+.ajaluguTekst, .reegliTekst {
+  text-align: justify;
+  font-family: monospace;
+  font-size: 22px;
+}
+
+.slideshow-container {
+  height: auto;
+  position: relative;
+  background: rgba(246, 225, 140, 0.882);
+}
+
+.ajalugu, .reeglid {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  border-radius: 0 3px 3px 0;  
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #f0d46e;
+  border-radius: 0 0 2em 2em;
+}
+
+.dotAjalugu, .dotReeglid {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color .25s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }

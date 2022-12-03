@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 
-<html lang="EE">
+<html lang="et">
+
   <head>
     <title>Disc golf</title>
-    <link rel="stylesheet" type="text/css" href="pealeht.css" />
-    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="pealeht.css">
+    <meta charset="UTF-8">
   </head>
+
+
   <body>
     <div class="mainTitle">
       <h1>Disc golf</h1>
@@ -25,17 +28,139 @@
     </div>
 
     <div class="container">
-      <div class="left">Column 1</div>
+      <div class="left">
+        
+        <h2 class="ajaluguTitle">Ajalugu</h2>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          
+          <!-- Full-width text -->
+          <div class="ajalugu" style="display: block;">
+            <p class="ajaluguTekst">
+              Discgolfi algus on tihedalt seotud tavalise frisbee lennutamisega ja usutakse, 
+              et esimesed algelise discgolfi mängijad tekkisid juba 1920-ndatel, 
+              kui frisbeedena kasutati pirukavorme ja purgikaasi.
+              Modernse discgolfi ajalugu ulatub 1960-ndate aastate lõppu, 
+              kui kaks meest nimedega George Sappenfield ja Ed Headrick (elas aastatel 1924-2002) 
+              võtsid USA-s kasutusele termini "disc golf" ning tutvustasid mängu laiemale üldsusele.
+            </p>
+          </div>
+        
+          <div class="ajalugu" style="display: none;">
+            <p class="ajaluguTekst">
+              1965 aastal oli George Sappenfield ülikooli suvepuhkuse ajal vaba aja veetmise instruktor Montereys, Californias. 
+              Mängides ühel pärastlõunal tavalist palligolfi, tuli ta mõttele, et kas poleks tore lastel mängida golfi, 
+              kasutades selleks lendavaid taldrikuid. Ta seadis üles raja, kus kasutas „korvidena" lambiposte ja tuletõrjehüdrante. 
+              Kui G. Sappenfield lõpetas ülikooli 1968 aastal, sai temast parkide ja rekreatsioonialade juhendaja Thousand Oaksi linnas, Californias. 
+              George tutvustas mängu ka täiskasvanutele ja hakkas planeerima discgolfi võistlust osana vaba aja veetmise võimalustest. 
+              Mäng sai kiiresti populaarseks, eriti ülikoolilinnakutes.
+            </p>
+          </div>
+        
+          <div class="ajalugu" style="display: none;">
+            <p class="ajaluguTekst">
+              1975 aastal lõi Ed Headrick esimese discgolfi assotsiatsiooni PDGA (Professional Disc Golf Association), 
+              mis on discgolfis juhtivaks organisatsiooniks tänaseni. Professional Disc Golf Association, 
+              mille ülemaailmne liikmeskond läheneb 250 000-le, on põhiline organisatsioon discgolfi maastikul, 
+              mis tegeleb võistluste sanktsioneerimisega nii meestele kui naistele, nii algajatele kui ka professionaalidele. 
+              Samuti on PDGA välja töötanud reitingusüsteemi, mille alusel saavad mängijad võrrelda oma meisterlikkust teiste mängijatega üle maailma.
+            </p>
+          </div>
+        
+          <div class="ajalugu" style="display: none;">
+            <p class="ajaluguTekst">
+              Ed Headrick on ka mees, kes hakkas tõsisemalt mõtlema discgolfi jaoks vajalike ketaste arendamisele ajal, 
+              mil ta töötas lastele mänguasju tootvas ettevõttes. 
+              Ta hakkas täiendama sealset toodetud frisbeed, muutis selle ääre kõrgust/paksust, ketta kuju, diameetrit, raskust ning plastiku tüüpi, 
+              luues sellega ketta, mida oli võimalik üsna täpselt visata. See tuli müügile aastal 1966. 
+              Ta alustas frisbeede turustamisega ning registreeris „frisbee" ametlikult spordialana. 
+              Hiljem lisandusid veel erinevad frisbeega mängitavad spordialad, nagu distantsivõistlus, freestyle jne. 
+              Esimese spetsiaalselt discgolfi jaoks loodud ketta tootis 1983 aastal Innova ning see kandis nime Eagle, 
+              mis on tootmises tänini. Kõiki frisbeed, mis toodeti enne seda, olid nö viska-püüa tüüpi frisbeed, ehk üsna kumera äärega ning aeglase lennuga.
+            </p>
+          </div>
+
+          <!-- Next/prev buttons -->
+          <a class="prev" onclick="plusAjaluguSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusAjaluguSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+          <span class="dotAjalugu active" onclick="currentAjaluguSlide(1)"></span>
+          <span class="dotAjalugu" onclick="currentAjaluguSlide(2)"></span>
+          <span class="dotAjalugu" onclick="currentAjaluguSlide(3)"></span>
+          <span class="dotAjalugu" onclick="currentAjaluguSlide(4)"></span>
+        </div>
+      </div>
 
       <div class="right">
-        <p class="kettad">Disc golfi kettad</p>
-        <a
-          href="https://www.google.com/search?q=disc+golf+discs&tbm=isch"
-          target="blank"
-        >
-          <img src="kettad.png" alt="kettad" />
-        </a>
+        <h2 class="reeglidTitle">Reeglid</h2>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          
+          <!-- Full-width text -->
+          <div class="reeglid" style="display: block;">
+            <p class="reegliTekst">
+              Kõikide radade mängimine discgolfi pargis algab spetsiaalselt alalt, mida nimetatakse tiialaks ehk viskealaks. 
+              Tiiala võib olla valmistatud erinevatest materjalidest - betoonist, kummist, puidust või olla looduslik. 
+              Loodusliku tiiala puhul peab olema maastikule märgitud nähtav joon. 
+              Tiialast ei tohi enne ketta lahtilaskmist üle astuda, kuid peale viset võib mängija tiialast üle astuda.
+            </p>
+          </div>
+        
+          <div class="reeglid" style="display: none;">
+            <p class="reegliTekst">
+              Kui kõik mängijad on oma esimese viske teinud, minnakse edasi ketaste maandumiskoha juurde ning iga mängija otsib üles oma ketta. 
+              Maandunud ketta ette asetatakse spetsiaalne väikesemõõtmeline markerketas, mis märgib ühtlasi ka järgmise viske sooritamise koha.  
+              Markerketta kasutamine ei ole kohustuslik, uue viske võib sooritada ka maandunud ketta tagant, 
+              kuid sellisel juhul ei tohi maasolevat ketast ülesse võtta. 
+            </p>
+          </div>
+        
+          <div class="reeglid" style="display: none;">
+            <p class="reegliTekst">
+              NB! grupi siseselt sooritab alati esimesena viske see mängija, kes on korvist kõige kaugemal. 
+              See välistab olukorra, kus mängijad liiguvad üksteise visetele ette ning võivad seetõttu viga saada. 
+            </p>
+          </div>
+        
+          <div class="reeglid" style="display: none;">
+            <p class="reegliTekst">
+              Iga mängija loeb oma viskekorrad ise! Rada loetake läbituks siis, kui kõik mängijad on oma ketta discgolfi korvi visanud. 
+              Lähiviset, ehk ketta korvi viset nimetatakse putiks või puttimiseks. 
+              Puttimisel on oluline säilitada keha tasakaal peale viset, mis tähendab, 
+              et peale puttimist ei tohi mängija astuda üle markerkettast. See reegel kehtib 10 meetri raadiuses korvi ümber. 
+              Kui mängija asub korvi suhtes kaugemal kui 10 meetrit, võib mängija peale viset markerkettast üle astuda või üle hüpata 
+              (peale seda, kui ketas on käest lahti läinud).
+            </p>
+          </div>
+
+          <div class="reeglid" style="display: none;">
+            <p class="reegliTekst">
+              Kui kõik rajad on läbitud, loetakse üle mängijate skoorid, 
+              mis on mängu käigus peale iga konkreetse raja läbimist üles märgitud. 
+              Mängu võitjaks on mängija, kes on raja läbinud väikseima arvu visetega. 
+            </p>
+          </div>
+
+          <!-- Next/prev buttons -->
+          <a class="prev" onclick="plusReegliSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusReegliSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Dots/bullets/indicators -->
+        <div class="dot-container">
+          <span class="dotReeglid active" onclick="currentReegliSlide(1)"></span>
+          <span class="dotReeglid" onclick="currentReegliSlide(2)"></span>
+          <span class="dotReeglid" onclick="currentReegliSlide(3)"></span>
+          <span class="dotReeglid" onclick="currentReegliSlide(4)"></span>
+          <span class="dotReeglid" onclick="currentReegliSlide(5)"></span>
+        </div>
+
       </div>
+
+      <script src="pealeht.js"></script>
     </div>
   </body>
 </html>
