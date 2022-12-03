@@ -5,22 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="kettad_style.css">
-    <script src="stylesheet.js"></script>
+    <link rel="stylesheet" href="kettatüübid.css">
+    <script src="kettatüübid.js"></script>
 </head>
-<body>
-  <div class="box">
-        <h1>DISCGOLFI KETTAD  </h1>
+<body><div class="box">
+  <h1>
+    Disc golfi kettad <br><br>
+</h1>
         <nav class="menu">
             <a href="pealeht.html">REEGLID JA TUTVUSTUS</a>
-            <a href="#">KETTATÜÜBID</a>
+            <a href="kettatüübid.html">KETTATÜÜBID</a>
             <a href="discgolf3.html">PARGID EESTIS</a>
         </nav>
-
-      </div>
+ <p>
+  <div class="tüübid">
     <div><img src="profiilid.png" alt="kettad" class="kettad"></div>
-    <h2>KETTATÜÜBID:</h2>
-    <h3>Driver</h3>
+    <h2>
+      <br>  Discgolfi varustuse kõige olulisemaks elemendiks on discgolfi ketas<br>
+       <br>  Kasutatakse kolme tüüpi kettaid</h2>
+
+       <h3>   Driver</h3>
     Driver ehk kaugmaaketas on pikima lennuga ketas. 
         Kaugmaaketta tunneb ära selle terava serva järgi. 
         Kaugmaakettaid kasutatakse pikkadeks viseteks korvi suunas ja nende täpsus ei pruugi olla kõige suurem.
@@ -37,8 +41,10 @@
     <h3>Putter</h3>
     <img src="putter.gif" alt="putter" class="putter">
     Putter ehk lähimaaketas on mõeldud peamiselt korvi viskamiseks. Putter on ümara servaga ega lenda kaugele, 
-    kuid on seevastu suure täpsusega.
-
+    kuid on seevastu suure täpsusega.<br>
+    <br>
+  </div>
+  
 <br><br><br><br>
 <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -46,19 +52,19 @@
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="driver.jpg" style="width: 100%;">
+      <img src="driver.jpg" alt="driver" style="width: 100%;">
       <div class="text">Tüüpiline driver</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="putter.jpg" style="width: 100%;">
+      <img src="putter.jpg" alt="putter" style="width: 100%;">
       <div class="text">Tüüpiline putter</div>
     </div>
   
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="kettad.jpg" style="width: 100%;">
+      <img src="kettad.jpg" alt="kettad" style="width: 100%;">
       <div class="text">Kettad</div>
     </div>
   
@@ -75,6 +81,8 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 </div>
-</p>
+<script>
+  showSlides(slideIndex);
+</script>
 </body>
 </html>
