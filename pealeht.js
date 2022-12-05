@@ -1,3 +1,7 @@
+/* Allikas: w3schools
+	https://www.w3schools.com/howto/howto_js_quotes_slideshow.asp */
+
+
 var slideAjaluguIndex = 1;
 showAjaluguSlides(slideAjaluguIndex);
 
@@ -28,6 +32,8 @@ function showAjaluguSlides(n) {
     slides[slideAjaluguIndex-1].style.display = "block";
     dots[slideAjaluguIndex-1].className += " active";
 }
+
+
 
 var reegliSlideIndex = 1;
 showReeglidSlides(reegliSlideIndex);
